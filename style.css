@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(132, 193, 132);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5vw;
+    align-items: center;
+}
+
+#main h1 {
+    opacity: 0.8;
+    color: #fff;
+}
+
+#panel {
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+
+#panel-top {
+    padding: 0 30%;
+    height: 90px;
+    width: 100%;
+    background-color: rgb(76, 116, 76);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+    color: rgb(18, 119, 57);
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.elem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+}
+
+.elem h2 {
+    font-weight: 500;
+    font-size: 21px;
+}
+
+#panel-bottom {
+    width: 100%;
+    /* Calc() function is use to Minus % and px */
+    height: calc(100% - 100px);
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.bubble {
+    width: 45px;
+    height: 45px;
+    background-color: rgb(72, 104, 72);
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.bubble:hover {
+    cursor: pointer;
+    background-color: rgb(50, 75, 50);
+}
