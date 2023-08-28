@@ -2,7 +2,7 @@
 
 function bubbleMaker() {
     var clutter = '';//This is a empty string,if you did not mention this then on the screen 'undefined' will show up.
-    for (var i = 1; i <= (198); i++) {
+    for (var i = 1; i <= (216); i++) {
         var random = Math.floor(Math.random() * 10);
         clutter = clutter + `<div class="bubble">${random}</div>`;
     }
