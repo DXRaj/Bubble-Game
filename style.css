@@ -76,7 +76,7 @@ body {
     padding: 20px;
     display: flex;
     justify-content: center;
-    gap: 8px;
+    gap: 0.3vw;
     flex-wrap: wrap;
 }
 
